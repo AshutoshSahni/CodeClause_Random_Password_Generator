@@ -6,6 +6,7 @@ import random
 import string
 
 
+# generate random password
 def generate_password():
     length = int(length_entry.get())
     if length < 6:
